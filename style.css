@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-image: url(https://images.unsplash.com/photo-1433838552652-f9a46b332c40?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218MHx8bGFuZHNjYXBlLF9nbHx8fHx8fDE2OTA5MjIzMTE&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    padding: 30px 40px;
+    border: none;
+    border-radius: 15px;
+}
+
+.botoes {
+    display: flex;
+    gap: 40px;
+    margin: 20px 0;
+   
+}
+
+.zerar{
+    font-size: 15px;
+    font-weight: bold;
+    background-color: darkmagenta;
+    padding: 5px;
+    color: #FFFFFF;
+}
+
+button{
+    font-size: 60px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: opacity 0.5s ease-in-out;
+}
+
+button:hover{
+    opacity: 0.7;
+}
+
+#pedra {
+
+    background-color: cornflowerblue;
+
+}
+
+#papel {
+    background-color: crimson;
+
+}
+
+#tesoura {
+    background-color: blueviolet;
+}
+
+p {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 5px 0;
+}
+
+.yourResult{
+    color:royalblue;
+}
+
+.machineResult{
+    color:brown;
+}
